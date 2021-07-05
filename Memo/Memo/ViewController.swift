@@ -1,18 +1,19 @@
 //
 //  ViewController.swift
-//  ToDoList
+//  Memo
 //
-//  Created by GSM04 on 2021/07/01.
+//  Created by GSM04 on 2021/07/05.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBOutlet var tableView: UITableView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // Do any additional setup after loading the view.
     }
+
+
 }
+
