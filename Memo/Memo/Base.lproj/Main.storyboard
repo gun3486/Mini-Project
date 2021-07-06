@@ -107,10 +107,15 @@
                                 <action selector="close:" destination="G7d-L1-iwL" id="fEe-cV-gN7"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="gPk-nc-vl2"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="gPk-nc-vl2">
+                            <connections>
+                                <action selector="save:" destination="G7d-L1-iwL" id="Bcc-AF-UgQ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="close" destination="N7A-JA-vIX" id="564-Mx-yph"/>
+                        <outlet property="memoTextView" destination="8Lg-jh-2ej" id="krb-0l-Yzb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2j3-Nq-qSk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
