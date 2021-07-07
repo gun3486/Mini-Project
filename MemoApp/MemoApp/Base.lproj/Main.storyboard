@@ -86,7 +86,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Memo*IZ" id="Ztt-oz-dzB">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="uIV-yh-8ss"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="uIV-yh-8ss">
+                            <connections>
+                                <action selector="close:" destination="cWR-yB-10R" id="Vvg-Be-owM"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="ADK-Lx-weG"/>
                     </navigationItem>
                 </viewController>
