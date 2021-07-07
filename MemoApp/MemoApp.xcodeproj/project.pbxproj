@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		9857E94F269532D9003CE799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E94E269532D9003CE799 /* AppDelegate.swift */; };
 		9857E951269532D9003CE799 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E950269532D9003CE799 /* SceneDelegate.swift */; };
-		9857E953269532D9003CE799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E952269532D9003CE799 /* ViewController.swift */; };
 		9857E956269532D9003CE799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9857E954269532D9003CE799 /* Main.storyboard */; };
 		9857E959269532D9003CE799 /* MemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9857E957269532D9003CE799 /* MemoApp.xcdatamodeld */; };
 		9857E95B269532DB003CE799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9857E95A269532DB003CE799 /* Assets.xcassets */; };
 		9857E95E269532DB003CE799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9857E95C269532DB003CE799 /* LaunchScreen.storyboard */; };
+		9857E967269538E1003CE799 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E966269538E1003CE799 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9857E94B269532D9003CE799 /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9857E94E269532D9003CE799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9857E950269532D9003CE799 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9857E952269532D9003CE799 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9857E955269532D9003CE799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9857E958269532D9003CE799 /* MemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoApp.xcdatamodel; sourceTree = "<group>"; };
 		9857E95A269532DB003CE799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9857E95D269532DB003CE799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9857E95F269532DB003CE799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9857E966269538E1003CE799 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		9857E94D269532D9003CE799 /* MemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				9857E965269538BA003CE799 /* Model */,
 				9857E94E269532D9003CE799 /* AppDelegate.swift */,
 				9857E950269532D9003CE799 /* SceneDelegate.swift */,
-				9857E952269532D9003CE799 /* ViewController.swift */,
 				9857E954269532D9003CE799 /* Main.storyboard */,
 				9857E95A269532DB003CE799 /* Assets.xcassets */,
 				9857E95C269532DB003CE799 /* LaunchScreen.storyboard */,
@@ -68,6 +68,14 @@
 				9857E957269532D9003CE799 /* MemoApp.xcdatamodeld */,
 			);
 			path = MemoApp;
+			sourceTree = "<group>";
+		};
+		9857E965269538BA003CE799 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9857E966269538E1003CE799 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9857E953269532D9003CE799 /* ViewController.swift in Sources */,
 				9857E94F269532D9003CE799 /* AppDelegate.swift in Sources */,
 				9857E951269532D9003CE799 /* SceneDelegate.swift in Sources */,
 				9857E959269532D9003CE799 /* MemoApp.xcdatamodeld in Sources */,
+				9857E967269538E1003CE799 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
