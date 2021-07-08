@@ -73,7 +73,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Tb-ZO-qe3">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="pvO-a2-b9g"/>
+                                    <barButtonItem systemItem="compose" id="pvO-a2-b9g">
+                                        <connections>
+                                            <segue destination="go1-hu-vjk" kind="presentation" id="6OP-zE-Nlc"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Lf9-s3-WF6">
@@ -133,10 +137,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="Nlb-uz-tAp"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="Lf9-s3-WF6" id="E6F-zz-V9u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hmu-At-AXG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1187" y="171"/>
+            <point key="canvasLocation" x="1187" y="191"/>
         </scene>
         <!--Memo*IZ-->
         <scene sceneID="x25-TS-uML">
@@ -219,6 +226,9 @@
             <point key="canvasLocation" x="1188" y="-522"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="6OP-zE-Nlc"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
