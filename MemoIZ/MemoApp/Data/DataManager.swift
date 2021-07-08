@@ -46,6 +46,13 @@ class DataManager{
         saveContext()
     }
     
+    func deleteMemo(_ memo: Memo?) {
+        if let memo = memo{
+            mainContenxt.delete(memo)
+            saveContext()
+        }
+    }
+    
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "MemoApp")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
