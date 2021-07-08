@@ -18,6 +18,7 @@
 		9857E96B2695434C003CE799 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E96A2695434C003CE799 /* ComposeViewController.swift */; };
 		9857E96D26954664003CE799 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E96C26954664003CE799 /* UIViewController+Alert.swift */; };
 		9857E96F2695C193003CE799 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E96E2695C192003CE799 /* DetailViewController.swift */; };
+		9891A6CD2696A3A200D40A3E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891A6CC2696A3A200D40A3E /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9857E96A2695434C003CE799 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		9857E96C26954664003CE799 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		9857E96E2695C192003CE799 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9891A6CC2696A3A200D40A3E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		9857E94D269532D9003CE799 /* MemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				9891A6CB2696A38300D40A3E /* Data */,
 				9857E965269538BA003CE799 /* Model */,
 				9857E94E269532D9003CE799 /* AppDelegate.swift */,
 				9857E950269532D9003CE799 /* SceneDelegate.swift */,
@@ -88,6 +91,14 @@
 				9857E966269538E1003CE799 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9891A6CB2696A38300D40A3E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9891A6CC2696A3A200D40A3E /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				9857E959269532D9003CE799 /* MemoApp.xcdatamodeld in Sources */,
 				9857E967269538E1003CE799 /* Model.swift in Sources */,
 				9857E96D26954664003CE799 /* UIViewController+Alert.swift in Sources */,
+				9891A6CD2696A3A200D40A3E /* DataManager.swift in Sources */,
 				9857E96F2695C193003CE799 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
