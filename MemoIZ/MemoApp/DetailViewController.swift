@@ -33,24 +33,26 @@ class DetailViewController: UIViewController {
             NotificationCenter.default.removeObserver(token)
         }
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        token = NotificationCenter.default.addObserver(forName: ComposeViewController.memoDidChange, object: nil, queue: OperationQueue.main, using: { [weak self](noti) in })
+        token = NotificationCenter.default.addObserver(forName: ComposeViewController.memoDidChange, object: nil, queue: OperationQueue.main, using: { [weak self](noti) in
+            self?.memoTableView.reloadData()
+        })
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
 
 extension DetailViewController: UITableViewDataSource{
@@ -62,7 +64,7 @@ extension DetailViewController: UITableViewDataSource{
         switch indexPath.row{
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: "memoCell", for: indexPath)
-           
+            
             cell.textLabel?.text = memo?.content
             
             return cell
