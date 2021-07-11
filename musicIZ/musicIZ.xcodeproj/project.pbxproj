@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9860A0BE2699CD4E0026FDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860A0BD2699CD4E0026FDC8 /* AppDelegate.swift */; };
-		9860A0C02699CD4E0026FDC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860A0BF2699CD4E0026FDC8 /* SceneDelegate.swift */; };
-		9860A0C22699CD4E0026FDC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860A0C12699CD4E0026FDC8 /* ViewController.swift */; };
-		9860A0C52699CD4E0026FDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860A0C32699CD4E0026FDC8 /* Main.storyboard */; };
-		9860A0C82699CD4E0026FDC8 /* musicIZ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9860A0C62699CD4E0026FDC8 /* musicIZ.xcdatamodeld */; };
-		9860A0CA2699CD4F0026FDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9860A0C92699CD4F0026FDC8 /* Assets.xcassets */; };
-		9860A0CD2699CD4F0026FDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860A0CB2699CD4F0026FDC8 /* LaunchScreen.storyboard */; };
+		9860A0E12699CF1F0026FDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860A0E02699CF1F0026FDC8 /* AppDelegate.swift */; };
+		9860A0E32699CF1F0026FDC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860A0E22699CF1F0026FDC8 /* SceneDelegate.swift */; };
+		9860A0E52699CF1F0026FDC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860A0E42699CF1F0026FDC8 /* ViewController.swift */; };
+		9860A0E82699CF1F0026FDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860A0E62699CF1F0026FDC8 /* Main.storyboard */; };
+		9860A0EB2699CF1F0026FDC8 /* MusicIZ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9860A0E92699CF1F0026FDC8 /* MusicIZ.xcdatamodeld */; };
+		9860A0ED2699CF200026FDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9860A0EC2699CF200026FDC8 /* Assets.xcassets */; };
+		9860A0F02699CF200026FDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860A0EE2699CF200026FDC8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9860A0BA2699CD4E0026FDC8 /* musicIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicIZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9860A0BD2699CD4E0026FDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9860A0BF2699CD4E0026FDC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9860A0C12699CD4E0026FDC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9860A0C42699CD4E0026FDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9860A0C72699CD4E0026FDC8 /* musicIZ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = musicIZ.xcdatamodel; sourceTree = "<group>"; };
-		9860A0C92699CD4F0026FDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9860A0CC2699CD4F0026FDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9860A0CE2699CD4F0026FDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9860A0DD2699CF1F0026FDC8 /* MusicIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicIZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9860A0E02699CF1F0026FDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9860A0E22699CF1F0026FDC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9860A0E42699CF1F0026FDC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9860A0E72699CF1F0026FDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9860A0EA2699CF1F0026FDC8 /* MusicIZ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicIZ.xcdatamodel; sourceTree = "<group>"; };
+		9860A0EC2699CF200026FDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9860A0EF2699CF200026FDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9860A0F12699CF200026FDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9860A0B72699CD4E0026FDC8 /* Frameworks */ = {
+		9860A0DA2699CF1F0026FDC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +39,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9860A0B12699CD4E0026FDC8 = {
+		9860A0D42699CF1F0026FDC8 = {
 			isa = PBXGroup;
 			children = (
-				9860A0BC2699CD4E0026FDC8 /* musicIZ */,
-				9860A0BB2699CD4E0026FDC8 /* Products */,
+				9860A0DF2699CF1F0026FDC8 /* MusicIZ */,
+				9860A0DE2699CF1F0026FDC8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9860A0BB2699CD4E0026FDC8 /* Products */ = {
+		9860A0DE2699CF1F0026FDC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9860A0BA2699CD4E0026FDC8 /* musicIZ.app */,
+				9860A0DD2699CF1F0026FDC8 /* MusicIZ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9860A0BC2699CD4E0026FDC8 /* musicIZ */ = {
+		9860A0DF2699CF1F0026FDC8 /* MusicIZ */ = {
 			isa = PBXGroup;
 			children = (
-				9860A0BD2699CD4E0026FDC8 /* AppDelegate.swift */,
-				9860A0BF2699CD4E0026FDC8 /* SceneDelegate.swift */,
-				9860A0C12699CD4E0026FDC8 /* ViewController.swift */,
-				9860A0C32699CD4E0026FDC8 /* Main.storyboard */,
-				9860A0C92699CD4F0026FDC8 /* Assets.xcassets */,
-				9860A0CB2699CD4F0026FDC8 /* LaunchScreen.storyboard */,
-				9860A0CE2699CD4F0026FDC8 /* Info.plist */,
-				9860A0C62699CD4E0026FDC8 /* musicIZ.xcdatamodeld */,
+				9860A0E02699CF1F0026FDC8 /* AppDelegate.swift */,
+				9860A0E22699CF1F0026FDC8 /* SceneDelegate.swift */,
+				9860A0E42699CF1F0026FDC8 /* ViewController.swift */,
+				9860A0E62699CF1F0026FDC8 /* Main.storyboard */,
+				9860A0EC2699CF200026FDC8 /* Assets.xcassets */,
+				9860A0EE2699CF200026FDC8 /* LaunchScreen.storyboard */,
+				9860A0F12699CF200026FDC8 /* Info.plist */,
+				9860A0E92699CF1F0026FDC8 /* MusicIZ.xcdatamodeld */,
 			);
-			path = musicIZ;
+			path = MusicIZ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9860A0B92699CD4E0026FDC8 /* musicIZ */ = {
+		9860A0DC2699CF1F0026FDC8 /* MusicIZ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9860A0D12699CD4F0026FDC8 /* Build configuration list for PBXNativeTarget "musicIZ" */;
+			buildConfigurationList = 9860A0F42699CF200026FDC8 /* Build configuration list for PBXNativeTarget "MusicIZ" */;
 			buildPhases = (
-				9860A0B62699CD4E0026FDC8 /* Sources */,
-				9860A0B72699CD4E0026FDC8 /* Frameworks */,
-				9860A0B82699CD4E0026FDC8 /* Resources */,
+				9860A0D92699CF1F0026FDC8 /* Sources */,
+				9860A0DA2699CF1F0026FDC8 /* Frameworks */,
+				9860A0DB2699CF1F0026FDC8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = musicIZ;
-			productName = musicIZ;
-			productReference = 9860A0BA2699CD4E0026FDC8 /* musicIZ.app */;
+			name = MusicIZ;
+			productName = MusicIZ;
+			productReference = 9860A0DD2699CF1F0026FDC8 /* MusicIZ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9860A0B22699CD4E0026FDC8 /* Project object */ = {
+		9860A0D52699CF1F0026FDC8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					9860A0B92699CD4E0026FDC8 = {
+					9860A0DC2699CF1F0026FDC8 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 9860A0B52699CD4E0026FDC8 /* Build configuration list for PBXProject "musicIZ" */;
+			buildConfigurationList = 9860A0D82699CF1F0026FDC8 /* Build configuration list for PBXProject "MusicIZ" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 9860A0B12699CD4E0026FDC8;
-			productRefGroup = 9860A0BB2699CD4E0026FDC8 /* Products */;
+			mainGroup = 9860A0D42699CF1F0026FDC8;
+			productRefGroup = 9860A0DE2699CF1F0026FDC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9860A0B92699CD4E0026FDC8 /* musicIZ */,
+				9860A0DC2699CF1F0026FDC8 /* MusicIZ */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9860A0B82699CD4E0026FDC8 /* Resources */ = {
+		9860A0DB2699CF1F0026FDC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9860A0CD2699CD4F0026FDC8 /* LaunchScreen.storyboard in Resources */,
-				9860A0CA2699CD4F0026FDC8 /* Assets.xcassets in Resources */,
-				9860A0C52699CD4E0026FDC8 /* Main.storyboard in Resources */,
+				9860A0F02699CF200026FDC8 /* LaunchScreen.storyboard in Resources */,
+				9860A0ED2699CF200026FDC8 /* Assets.xcassets in Resources */,
+				9860A0E82699CF1F0026FDC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9860A0B62699CD4E0026FDC8 /* Sources */ = {
+		9860A0D92699CF1F0026FDC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9860A0C82699CD4E0026FDC8 /* musicIZ.xcdatamodeld in Sources */,
-				9860A0C22699CD4E0026FDC8 /* ViewController.swift in Sources */,
-				9860A0BE2699CD4E0026FDC8 /* AppDelegate.swift in Sources */,
-				9860A0C02699CD4E0026FDC8 /* SceneDelegate.swift in Sources */,
+				9860A0EB2699CF1F0026FDC8 /* MusicIZ.xcdatamodeld in Sources */,
+				9860A0E52699CF1F0026FDC8 /* ViewController.swift in Sources */,
+				9860A0E12699CF1F0026FDC8 /* AppDelegate.swift in Sources */,
+				9860A0E32699CF1F0026FDC8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9860A0C32699CD4E0026FDC8 /* Main.storyboard */ = {
+		9860A0E62699CF1F0026FDC8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9860A0C42699CD4E0026FDC8 /* Base */,
+				9860A0E72699CF1F0026FDC8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9860A0CB2699CD4F0026FDC8 /* LaunchScreen.storyboard */ = {
+		9860A0EE2699CF200026FDC8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9860A0CC2699CD4F0026FDC8 /* Base */,
+				9860A0EF2699CF200026FDC8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9860A0CF2699CD4F0026FDC8 /* Debug */ = {
+		9860A0F22699CF200026FDC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		9860A0D02699CD4F0026FDC8 /* Release */ = {
+		9860A0F32699CF200026FDC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,59 +285,59 @@
 			};
 			name = Release;
 		};
-		9860A0D22699CD4F0026FDC8 /* Debug */ = {
+		9860A0F52699CF200026FDC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = musicIZ/Info.plist;
+				INFOPLIST_FILE = MusicIZ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.musicIZ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MusicIZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9860A0D32699CD4F0026FDC8 /* Release */ = {
+		9860A0F62699CF200026FDC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = musicIZ/Info.plist;
+				INFOPLIST_FILE = MusicIZ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.musicIZ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MusicIZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9860A0B52699CD4E0026FDC8 /* Build configuration list for PBXProject "musicIZ" */ = {
+		9860A0D82699CF1F0026FDC8 /* Build configuration list for PBXProject "MusicIZ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9860A0CF2699CD4F0026FDC8 /* Debug */,
-				9860A0D02699CD4F0026FDC8 /* Release */,
+				9860A0F22699CF200026FDC8 /* Debug */,
+				9860A0F32699CF200026FDC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9860A0D12699CD4F0026FDC8 /* Build configuration list for PBXNativeTarget "musicIZ" */ = {
+		9860A0F42699CF200026FDC8 /* Build configuration list for PBXNativeTarget "MusicIZ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9860A0D22699CD4F0026FDC8 /* Debug */,
-				9860A0D32699CD4F0026FDC8 /* Release */,
+				9860A0F52699CF200026FDC8 /* Debug */,
+				9860A0F62699CF200026FDC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -345,17 +345,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9860A0C62699CD4E0026FDC8 /* musicIZ.xcdatamodeld */ = {
+		9860A0E92699CF1F0026FDC8 /* MusicIZ.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9860A0C72699CD4E0026FDC8 /* musicIZ.xcdatamodel */,
+				9860A0EA2699CF1F0026FDC8 /* MusicIZ.xcdatamodel */,
 			);
-			currentVersion = 9860A0C72699CD4E0026FDC8 /* musicIZ.xcdatamodel */;
-			path = musicIZ.xcdatamodeld;
+			currentVersion = 9860A0EA2699CF1F0026FDC8 /* MusicIZ.xcdatamodel */;
+			path = MusicIZ.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 9860A0B22699CD4E0026FDC8 /* Project object */;
+	rootObject = 9860A0D52699CF1F0026FDC8 /* Project object */;
 }

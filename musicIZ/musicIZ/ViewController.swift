@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  musicIZ
+//  MusicIZ
 //
 //  Created by GSM04 on 2021/07/10.
 //
