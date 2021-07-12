@@ -28,53 +28,53 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           albumName: "BLOOM*IZ ",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover1",
-                          trackName: "피에스타"))
+                          trackName: "song1"))
         
         songs.append(Song(name: "환상동화",
                           albumName: "Oneiric Diary (幻想日記)",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover2",
-                          trackName: "환상동화"))
+                          trackName: "song2"))
         
         songs.append(Song(name: "Panorama",
                           albumName: "One-reeler / Act IV",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover3",
-                          trackName: "파노라마"))
+                          trackName: "song3"))
         songs.append(Song(name: "FIESTA",
                           albumName: "BLOOM*IZ ",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover1",
-                          trackName: "피에스타"))
+                          trackName: "song1"))
         
         songs.append(Song(name: "환상동화",
                           albumName: "Oneiric Diary (幻想日記)",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover2",
-                          trackName: "환상동화"))
+                          trackName: "song2"))
         
         songs.append(Song(name: "Panorama",
                           albumName: "One-reeler / Act IV",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover3",
-                          trackName: "파노라마"))
+                          trackName: "song3"))
         songs.append(Song(name: "FIESTA",
                           albumName: "BLOOM*IZ ",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover1",
-                          trackName: "피에스타"))
+                          trackName: "song1"))
         
         songs.append(Song(name: "환상동화",
                           albumName: "Oneiric Diary (幻想日記)",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover2",
-                          trackName: "환상동화"))
+                          trackName: "song2"))
         
         songs.append(Song(name: "Panorama",
                           albumName: "One-reeler / Act IV",
                           artistName: "아이즈원(IZ*ONE)",
                           imageName: "cover3",
-                          trackName: "파노라마"))
+                          trackName: "song3"))
         
     }
     
