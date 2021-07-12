@@ -18,6 +18,33 @@ class PlayerViewController: UIViewController {
     
     var player: AVAudioPlayer?
     
+    private let albumImageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.contentMode = .scaleAspectFill
+        return imageView
+    }()
+    
+    private let songNameLable : UILabel  = {
+        let label = UILabel()
+        label.textAlignment = .center
+        label.numberOfLines = 0
+        return label
+    }()
+    
+    private let artistNameLable : UILabel  = {
+        let label = UILabel()
+        label.textAlignment = .center
+        label.numberOfLines = 0
+        return label
+    }()
+    
+    private let albumNameLable : UILabel  = {
+        let label = UILabel()
+        label.textAlignment = .center
+        label.numberOfLines = 0
+        return label
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -54,6 +81,40 @@ class PlayerViewController: UIViewController {
         catch {
              print("error occurred")
         }
+        
+        albumImageView.frame = CGRect(x: 10,
+                                      y: 10,
+                                      width: holder.frame.size.width-20,
+                                      height: holder.frame.size.width-20)
+        albumImageView.image = UIImage(named: song.imageName)
+        holder.addSubview(albumImageView)
+         
+        songNameLable.frame = CGRect(x: 10,
+                                     y: albumImageView.frame.size.height + 10,
+                                      width: holder.frame.size.width-20,
+                                      height: 70)
+        
+        albumNameLable.frame = CGRect(x: 10,
+                                      y: albumImageView.frame.size.height + 10 + 70,
+                                      width: holder.frame.size.width-20,
+                                      height: 70)
+         
+        artistNameLable.frame = CGRect(x: 10,
+                                      y: albumImageView.frame.size.height + 10 + 140,
+                                      width: holder.frame.size.width-20,
+                                      height: 70)
+
+
+        songNameLable.text = song.name
+        albumNameLable.text = song.albumName
+        artistNameLable.text = song.artistName
+        
+        //Labels
+        holder.addSubview(songNameLable)
+        holder.addSubview(albumNameLable)
+        holder.addSubview(artistNameLable)
+        //Player controls
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
