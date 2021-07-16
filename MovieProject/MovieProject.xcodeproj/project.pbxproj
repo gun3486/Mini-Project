@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		982DFD38269FC66A002CC641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982DFD37269FC66A002CC641 /* Assets.xcassets */; };
 		982DFD3B269FC66A002CC641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982DFD39269FC66A002CC641 /* LaunchScreen.storyboard */; };
 		982DFD43269FC6B9002CC641 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 982DFD42269FC6B9002CC641 /* GoogleService-Info.plist */; };
+		982DFD45269FFA63002CC641 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DFD44269FFA63002CC641 /* SignUpViewController.swift */; };
+		982DFD47269FFCCE002CC641 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DFD46269FFCCE002CC641 /* LoginViewController.swift */; };
+		982DFD4926A010A8002CC641 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DFD4826A010A8002CC641 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		982DFD3A269FC66A002CC641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		982DFD3C269FC66A002CC641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982DFD42269FC6B9002CC641 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		982DFD44269FFA63002CC641 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		982DFD46269FFCCE002CC641 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		982DFD4826A010A8002CC641 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D18EE0DB8C87CB23A700F459 /* Pods-MovieProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieProject.release.xcconfig"; path = "Target Support Files/Pods-MovieProject/Pods-MovieProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +58,6 @@
 				36E55E7558AF2BA6D751FB57 /* Pods-MovieProject.debug.xcconfig */,
 				D18EE0DB8C87CB23A700F459 /* Pods-MovieProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,7 +92,7 @@
 			children = (
 				982DFD2B269FC668002CC641 /* AppDelegate.swift */,
 				982DFD2D269FC668002CC641 /* SceneDelegate.swift */,
-				982DFD2F269FC668002CC641 /* ViewController.swift */,
+				982DFD4A26A010CB002CC641 /* View Controllers */,
 				982DFD31269FC668002CC641 /* Main.storyboard */,
 				982DFD37269FC66A002CC641 /* Assets.xcassets */,
 				982DFD39269FC66A002CC641 /* LaunchScreen.storyboard */,
@@ -96,6 +101,17 @@
 				982DFD34269FC668002CC641 /* MovieProject.xcdatamodeld */,
 			);
 			path = MovieProject;
+			sourceTree = "<group>";
+		};
+		982DFD4A26A010CB002CC641 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				982DFD44269FFA63002CC641 /* SignUpViewController.swift */,
+				982DFD46269FFCCE002CC641 /* LoginViewController.swift */,
+				982DFD4826A010A8002CC641 /* HomeViewController.swift */,
+				982DFD2F269FC668002CC641 /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,10 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982DFD47269FFCCE002CC641 /* LoginViewController.swift in Sources */,
 				982DFD36269FC668002CC641 /* MovieProject.xcdatamodeld in Sources */,
 				982DFD30269FC668002CC641 /* ViewController.swift in Sources */,
 				982DFD2C269FC668002CC641 /* AppDelegate.swift in Sources */,
 				982DFD2E269FC668002CC641 /* SceneDelegate.swift in Sources */,
+				982DFD4926A010A8002CC641 /* HomeViewController.swift in Sources */,
+				982DFD45269FFA63002CC641 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
