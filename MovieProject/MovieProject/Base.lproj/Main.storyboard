@@ -140,32 +140,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Un7-oi-zbm">
-                                <rect key="frame" x="40" y="84" width="334" height="128.5"/>
+                                <rect key="frame" x="40" y="84" width="334" height="140.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1hG-B0-nRE">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JaG-gg-LAu">
-                                        <rect key="frame" x="0.0" y="34" width="334" height="34"/>
+                                        <rect key="frame" x="0.0" y="40" width="334" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebf-rR-dwu">
-                                        <rect key="frame" x="0.0" y="68" width="334" height="40"/>
+                                        <rect key="frame" x="0.0" y="80" width="334" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="RJr-fJ-dcq"/>
                                         </constraints>
                                         <state key="normal" title="Login"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxc-GM-UzR">
-                                        <rect key="frame" x="0.0" y="108" width="334" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="120" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="JaG-gg-LAu" firstAttribute="height" secondItem="1hG-B0-nRE" secondAttribute="height" id="Qqf-Qo-2TR"/>
+                                    <constraint firstItem="ebf-rR-dwu" firstAttribute="height" secondItem="1hG-B0-nRE" secondAttribute="height" id="VSc-6v-c6M"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eKS-bD-iUQ"/>
