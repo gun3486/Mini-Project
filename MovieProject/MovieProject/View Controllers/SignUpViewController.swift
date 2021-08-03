@@ -9,6 +9,8 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var firstNameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -118,6 +118,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UDI-Mm-Ns5"/>
+                    <connections>
+                        <outlet property="firstNameTextField" destination="Yny-85-sRT" id="ICf-k3-qvV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cax-Q9-X3T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
